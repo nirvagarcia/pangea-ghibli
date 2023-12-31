@@ -1,6 +1,6 @@
-![Header](./public/assets/piligrim.jpg)
+![Header](./public/assets/ponyo.png)
 
-# Welcome to My Portfolio Project! 🚀
+# Welcome to Pangea! 🀄
 
 
 
@@ -21,7 +21,7 @@
 
 ## 💻 Tech Stack
 `React.js`
-`Javascript`
+`Typescript`
 `CSS`
 `HTML`
 
