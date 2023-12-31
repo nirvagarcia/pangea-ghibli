@@ -21,11 +21,16 @@ span {
   margin-bottom: 4rem;
 }
 
+.swiper-footer {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 4rem;
+  color: rgb(165, 165, 165);
+}
 
 .slide-container {
   margin: 0 1.25rem;
   overflow: hidden;
-
 }
 
 .swiper-text {
@@ -39,14 +44,15 @@ span {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 .card .movie-details {
   text-align: end;
-  padding: 1% 8%;
+  padding: 40% 8% 10% 8%;
   color: rgba(255, 255, 255, 0.007);
   transition-duration: 0.5s;
-  height: 30rem;
+  height: 20vw;
   cursor: grab;
 }
 
@@ -61,17 +67,17 @@ span {
 }
 
 .movie-details .title {
-  font-size: 3vw;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
 .movie-details .description {
-  font-size: 2.5vw;  
-  font-weight: 300;
+  font-size: 1rem;  
+  font-weight: 500;
 }
 
 .movie-details p {
+  font-size: 1rem; 
+  font-weight: 200;  
   margin-top: 1rem;
-  font-size: 1.5vw;  
-  font-weight: 200;
 }
