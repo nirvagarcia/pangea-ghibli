@@ -1,12 +1,19 @@
 import React from 'react';
-import "../styles/Home.css";
+import '../styles/Home.css';
 
 const Home: React.FC = () => {
   return (
-    <div className="home-container">
-      <h1>Welcome to the Home Page</h1>
-      <p>This is a basic example of a React component.</p>
-    </div>
+    <section className="hero">
+      <div className="container_hero">
+        <h1>Disfruta las mejores películas de Anime en PANGEA</h1>
+        <p>
+          Vive una increíble experiencia en Pangea, la plataforma de anime streaming con +100 películas dirigidas y producidas por Studio Ghibli
+        </p>
+        <a href="#/" className="button">
+          Suscríbete ahora
+        </a>
+      </div>
+    </section>
   );
 };
 

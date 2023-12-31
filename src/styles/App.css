@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style: none;    
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +23,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e6e6e6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(46, 46, 46);
 }
 
 .App-link {
