@@ -25,6 +25,7 @@ span {
 .slide-container {
   margin: 0 1.25rem;
   overflow: hidden;
+
 }
 
 .swiper-text {
@@ -35,36 +36,22 @@ span {
 .card {
   background: #fff;
   border-radius: 0.5rem;
-  height: 20rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.swiper-navBtn {
-  color: rgb(255, 255, 255);
-  height: 2.5rem;
-  width: 2.5rem;
-  background: rgb(179, 114, 114);
-  border-radius: 50%;
-  margin: 50px 0;
-}
-
-.swiper-navBtn::before,
-.swiper-navBtn::after {
-  font-size: 1.2rem;
-}
-
-.swiper-pagination-bullet {
-  background-color: rgb(223, 117, 117);
-}
-
 .card .movie-details {
-  height: 100%;
   text-align: end;
-  padding: 1.5rem;
+  padding: 1% 8%;
   color: rgba(255, 255, 255, 0.007);
   transition-duration: 0.5s;
+  height: 30rem;
+  cursor: grab;
+}
+
+.card .movie-details:active {
+  cursor: grabbing;
 }
 
 .movie-details:hover {
@@ -74,17 +61,17 @@ span {
 }
 
 .movie-details .title {
-  font-size: 1.5rem;
+  font-size: 3vw;
   font-weight: 500;
 }
 
 .movie-details .description {
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 2.5vw;  
+  font-weight: 300;
 }
 
 .movie-details p {
   margin-top: 1rem;
-  font-size: 0.7rem;
+  font-size: 1.5vw;  
   font-weight: 200;
 }
