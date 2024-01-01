@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Catalog.css';
-import '../styles/swiper.css';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 

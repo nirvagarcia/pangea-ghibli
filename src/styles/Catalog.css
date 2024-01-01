@@ -81,3 +81,11 @@ span {
   font-weight: 200;  
   margin-top: 1rem;
 }
+
+.swiper-wrapper{
+  display:flex;
+}
+
+.swiper-slide{
+  flex-shrink: 0;
+}

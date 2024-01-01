@@ -30,8 +30,7 @@
   font-size: 0.7em;
   padding: 0.9em 2em;
   border-radius: 50px;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
 
 .container_hero .button:hover {
@@ -39,4 +38,3 @@
   transition: all 0.2s;
   transform: translateY(-7px);
 }
-
