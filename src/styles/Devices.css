@@ -1,0 +1,58 @@
+#usabilidad {
+  background-color: rgb(223, 117, 117);
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#container-usabilidad {
+  margin: 7% 7%;
+}
+
+#container-usabilidad h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+#container-usabilidad p {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.img-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 4rem 10%;
+  gap: 4rem;
+  
+}
+
+.img-text img {
+  height: 26vw;
+}
+
+.tipos-uso {
+  display: flex;
+  gap: 5rem;
+  column-gap: 5rem;
+}
+
+.tipos-uso .columna {
+  text-align: center;
+  align-items: center;
+}
+
+.columna .elemento img {
+  height: 4rem;
+}
+
+.elemento p {
+  margin-bottom: 3rem;
+  font-size: 0.8rem;
+}
