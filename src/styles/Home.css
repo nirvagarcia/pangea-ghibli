@@ -4,8 +4,8 @@
   display: flex;
   align-items: center;
   background: center fixed url(/public/assets/hero-bg.png);
-  background-size: auto; 
   background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 .container_hero {
