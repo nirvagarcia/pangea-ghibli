@@ -3,7 +3,7 @@ import "../styles/Devices.css";
 
 const Devices: React.FC = () => {
   return (
-    <div id="usabilidad">
+    <div id="devices">
       <div id="container-usabilidad">
         <h1>¡Conéctate mediante todos tus dispositivos!</h1>
         <p className='usability-desc'>Disfrútalo en tu pantalla favorita, TV, tableta, computadora, teléfono y otros. Además, puedes ver en cuatro pantallas en simultáneo.</p>

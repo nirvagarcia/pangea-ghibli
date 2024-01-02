@@ -1,4 +1,4 @@
-.hero {
+#home {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -37,4 +37,22 @@
   background: rgb(204, 96, 96);
   transition: all 0.2s;
   transform: translateY(-7px);
+}
+
+
+@media only screen and (max-width: 600px) { 
+  .container_hero {
+    margin: 0px 18%;
+  }
+
+  .container_hero h1 {
+    font-size: 7vw;
+  }
+  
+  .container_hero p {
+    font-size: 4vw;
+  }  
+  .container_hero .button { 
+    font-size: 4vw;    
+  }
 }

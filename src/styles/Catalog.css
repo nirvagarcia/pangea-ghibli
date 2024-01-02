@@ -24,7 +24,7 @@ span {
 .swiper-footer {
   font-weight: 400;
   font-size: 1rem;
-  margin-top: 4rem;
+  margin-top: 1.5rem;
   color: rgb(165, 165, 165);
 }
 
@@ -49,7 +49,7 @@ span {
 
 .card .movie-details {
   text-align: end;
-  padding: 40% 8% 10% 8%;
+  padding: 30% 8% 10% 8%;
   color: rgba(255, 255, 255, 0.007);
   transition-duration: 0.5s;
   height: 20vw;
@@ -67,19 +67,13 @@ span {
 }
 
 .movie-details .title {
-  font-size: 1.6rem;
+  font-size: 1.6vw;
   font-weight: 500;
 }
 
 .movie-details .description {
-  font-size: 1rem;  
-  font-weight: 500;
-}
-
-.movie-details p {
-  font-size: 1rem; 
-  font-weight: 200;  
-  margin-top: 1rem;
+  font-size: 1vw;  
+  font-weight: 200;
 }
 
 .swiper-wrapper{
@@ -88,4 +82,49 @@ span {
 
 .swiper-slide{
   flex-shrink: 0;
+}
+
+@media only screen and (max-width: 800px) { 
+  .card .movie-details { 
+    height: 40vh;   
+    padding: 80% 8% 10% 8%;
+  }
+  .title-description .title {
+    font-size: 2.5vw;
+  }
+  .title-description .description {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (max-width: 670px) {  
+  .title-description .title {
+    font-size: 3vw;
+  }
+  .title-description .description {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  .swiper-text h1  {
+    font-size: 7vw;
+  }
+  .swiper-text h2 {
+    font-size: 4vw;
+  }
+  .swiper-footer {
+    font-size: 3.3vw;
+  }
+
+  .card .movie-details { 
+    padding: 100% 8% 10% 8%;
+  }
+
+  .title-description .title {
+    font-size: 3vw;
+  }
+  .title-description .description {
+    font-size: 3vw;
+  }
 }

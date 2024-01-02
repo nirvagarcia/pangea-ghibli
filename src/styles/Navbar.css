@@ -63,3 +63,12 @@
   width: 2.2em;
   cursor: pointer;
 }
+
+
+@media only screen and (max-width: 680px) { 
+  .nav-links {
+    display: none;
+  }
+
+
+}

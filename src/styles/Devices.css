@@ -1,7 +1,7 @@
-#usabilidad {
+#devices {
   background-color: rgb(223, 117, 117);
   color: #fff;
-  height: 95vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -60,10 +60,10 @@
   .img-text {
     display: block;
     text-align: center;
-    padding: 4rem 0;
+    padding: 2rem 0;
   }
   .img-text img {
-    width: 100%;
+    width: 70%;
     height: auto;
   }
   .tipos-uso {
@@ -75,10 +75,9 @@
   .tipos-uso .columna {
     display: flex;
     gap: 1.5rem;    
-  }
-  
+  }  
   .columna .elemento img {
-    height: 8vw;
+    height: 6vw;
     width: auto;
   }
 }
@@ -89,6 +88,9 @@
   }
   .usability-desc {
     font-size: 4vw;
+  }
+  .img-text img {
+    width: 90%;
   }
 }
 

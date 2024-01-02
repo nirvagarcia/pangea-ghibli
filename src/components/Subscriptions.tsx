@@ -12,7 +12,7 @@ const Subscriptions: React.FC = () => {
         <div className="wave" id="wave4" style={{ '--i': 4 } as React.CSSProperties}></div>
       </section>
       
-      <div id="membresias">
+      <div id="membership">
         <div className="container-membresias">
           <h2>Selecciona tu Plan</h2>
 
@@ -22,6 +22,8 @@ const Subscriptions: React.FC = () => {
                     <div className="card-body">
                     <h2>Estudiante</h2>
                     <h3>S/.10.00 <span>/mes</span></h3>
+                    <img src="/assets/fire.png" alt="logo" />
+
                     <ul>
                         <li>Sin publicidad</li>
                         <li>Acceso a todo el catálogo</li>
@@ -37,11 +39,14 @@ const Subscriptions: React.FC = () => {
                     <div className="card-body">
                     <h2>Standard</h2>
                     <h3>S/.29.00 <span>/mes</span></h3>
+                    <img src="/assets/oink.png" alt="logo" />
+
                     <ul>
                         <li>Sin publicidad</li>
                         <li>Acceso a todo el catálogo</li>
                         <li>Descarga en 1080px</li>
                     </ul>
+
                     <div className="boton-plan">
                         <a href="#/" id="button">Empezar</a>
                     </div>
@@ -52,11 +57,14 @@ const Subscriptions: React.FC = () => {
                     <div className="card-body">
                     <h2>Familiar</h2>
                     <h3>S/.35.00 <span>/mes</span></h3>
+                    <img src="/assets/totoro.png" alt="logo" />
+
                     <ul>
                         <li>Sin publicidad</li>
                         <li>Acceso a todo el catálogo</li>
                         <li>Descarga en 4K</li>
                     </ul>
+
                     <div className="boton-plan">
                         <a href="#/" id="button">Empezar</a>
                     </div>

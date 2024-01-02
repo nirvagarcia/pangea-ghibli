@@ -3,7 +3,7 @@ import '../styles/Home.css';
 
 const Home: React.FC = () => {
   return (
-    <section className="hero">
+    <section id="home">
       <div className="container_hero">
         <h1>Disfruta las mejores películas de Anime en PANGEA</h1>
         <p>
