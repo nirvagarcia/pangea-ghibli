@@ -19,8 +19,9 @@ const Catalog: React.FC = () => {
       }
     };
 
-    handleResize();
     window.addEventListener('resize', handleResize);
+    handleResize();
+
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -37,9 +38,7 @@ const Catalog: React.FC = () => {
 
         <Swiper
           spaceBetween={15}
-          slidesPerView={slidesPerView}
-          centeredSlides={true}
-          //navigation
+          slidesPerView={slidesPerView}          //navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000 }}
           loop={true} 

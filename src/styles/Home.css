@@ -3,12 +3,10 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
   background: center fixed url(/public/assets/hero-bg.png);
+  background-size: auto; 
   background-repeat: no-repeat;
-  background-size: 100% cover; 
 }
-
 
 .container_hero {
   text-align: center;
