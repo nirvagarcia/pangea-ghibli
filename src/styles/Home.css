@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   background: center fixed url(/public/assets/hero-bg.png);
-  background-repeat: no-repeat;
   background-size: cover; 
 }
 

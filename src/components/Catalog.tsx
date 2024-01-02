@@ -47,7 +47,7 @@ const Catalog: React.FC = () => {
             <div className="movie-details">
               <div className="title-description">
                 <h3 className="title">Howl's Moving Castle</h3>
-                <h4 className="description">Fantasy/Adventure</h4>
+                <h4 className="description">Fantasy / Adventure</h4>
               </div>
             </div>
           </SwiperSlide>
@@ -56,7 +56,7 @@ const Catalog: React.FC = () => {
             <div className="movie-details">
               <div className="title-description">
                 <h3 className="title">Kiki's Delivery Service</h3>
-                <h4 className="description">Adventure/Family</h4>
+                <h4 className="description">Adventure / Family</h4>
               </div>
             </div>
           </SwiperSlide>
@@ -65,7 +65,7 @@ const Catalog: React.FC = () => {
             <div className="movie-details">
               <div className="title-description">
                 <h3 className="title">My Neighbor Totoro</h3>
-                <h4 className="description">Fantasy/Animation</h4>
+                <h4 className="description">Fantasy / Animation</h4>
               </div>
             </div>
           </SwiperSlide>
@@ -73,8 +73,8 @@ const Catalog: React.FC = () => {
           <SwiperSlide className='card' style={{ backgroundImage: 'url(/assets/movie4.png)' }}>
             <div className="movie-details">
               <div className="title-description">
-                <h3 className="title">Howl's Moving Castle</h3>
-                <h4 className="description">Fantasy/Adventure</h4>
+                <h3 className="title">Castle in the Sky</h3>
+                <h4 className="description">Fantasy / Adventure</h4>
               </div>
             </div>
           </SwiperSlide>
@@ -82,8 +82,8 @@ const Catalog: React.FC = () => {
           <SwiperSlide className='card' style={{ backgroundImage: 'url(/assets/movie5.png)' }}>
             <div className="movie-details">
               <div className="title-description">
-                <h3 className="title">Kiki's Delivery Service</h3>
-                <h4 className="description">Adventure/Family</h4>
+                <h3 className="title">Ponyo</h3>
+                <h4 className="description">Fantasy / Adventure</h4>
               </div>
             </div>
           </SwiperSlide>
@@ -91,8 +91,8 @@ const Catalog: React.FC = () => {
           <SwiperSlide className='card' style={{ backgroundImage: 'url(/assets/movie6.png)' }}>
             <div className="movie-details">
               <div className="title-description">
-                <h3 className="title">My Neighbor Totoro</h3>
-                <h4 className="description">Fantasy/Animation</h4>
+                <h3 className="title">The Wind Rises</h3>
+                <h4 className="description">War / Romance</h4>
               </div>
             </div>
           </SwiperSlide>
