@@ -6,8 +6,9 @@
   justify-content: center;
   background: center fixed url(/public/assets/hero-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% cover; 
 }
+
 
 .container_hero {
   text-align: center;

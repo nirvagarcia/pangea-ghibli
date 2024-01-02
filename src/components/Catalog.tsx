@@ -9,7 +9,7 @@ const Catalog: React.FC = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      const width = window.innerWidth;      
+      const width = window.innerWidth;
       if (width > 1600) {
         setSlidesPerView(4);
       } else if (width > 1000) {
@@ -17,11 +17,10 @@ const Catalog: React.FC = () => {
       } else if (width > 780) {
         setSlidesPerView(2);
       }
-      
     };
 
-    window.addEventListener('resize', handleResize);
     handleResize();
+    window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -39,6 +38,7 @@ const Catalog: React.FC = () => {
         <Swiper
           spaceBetween={15}
           slidesPerView={slidesPerView}
+          centeredSlides={true}
           //navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000 }}
