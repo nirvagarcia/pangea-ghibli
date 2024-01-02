@@ -18,7 +18,7 @@
   font-size: 2.5rem;
 }
 
-#container-usabilidad p {
+.usability-desc {
   margin-bottom: 2rem;
   font-size: 1.2rem;
 }
@@ -51,7 +51,51 @@
   height: 4rem;
 }
 
-.elemento p {
+.elemento p{
   margin-bottom: 3rem;
-  font-size: 0.8rem;
+  font-size: 60%;
+}
+
+@media only screen and (max-width: 815px) { 
+  .img-text {
+    display: block;
+    text-align: center;
+    padding: 4rem 0;
+  }
+  .img-text img {
+    width: 100%;
+    height: auto;
+  }
+  .tipos-uso {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;    
+    justify-content: center;
+  }
+  .tipos-uso .columna {
+    display: flex;
+    gap: 1.5rem;    
+  }
+  
+  .columna .elemento img {
+    height: 8vw;
+  }
+}
+
+@media only screen and (max-width: 600px) { 
+  #container-usabilidad h1 {
+    font-size: 7vw;
+  }
+  .usability-desc {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (max-width: 251px) { 
+  /*.tipos-uso {
+    display: none;
+  }
+  .img-text {
+    display: none;
+  }*/
 }

@@ -1,29 +1,27 @@
 #membresias {
-    height: 85vh;
+    height: 100%;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-  }
-  
-  .container-membresias {
-    padding: 5rem; 
-  }
-  
-  .container-membresias h2 {
-    font-size: 3rem;
+}
+
+.container-membresias {
+    padding: 8% 13% 14% 13%; 
+}
+
+.container-membresias h2 {
+    font-size: 2.5rem;
     margin-bottom: 2rem;
-  }
-  
-  .container-membresias .cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-  }
-  
-  .container-membresias .card {
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+    grid-gap: 1rem;  
+}
+
+.cards .card {
     background-color: #cbcbcb;
     border-radius: 3rem;
     box-shadow: 3px 2px 18px rgba(0, 0, 0, 0.3);
@@ -33,47 +31,71 @@
     align-items: center;
     transition: box-shadow 0.3s ease;
     transition: transform 0.3s ease; 
+}
 
-  }
-  
-.container-membresias .card:hover {
+.cards .card:hover {
     transform: translateY(-7px);
     cursor: default;
 }
 
-  .container-membresias .card-body h2 {
+.card .card-body h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .container-membresias .card-body h3 {
+}
+
+.card .card-body h3 {
     margin-bottom: 0.5rem;
     font-size: 1.5rem;
-  }
-  
-  .container-membresias .card-body ul {
+}
+
+.card .card-body ul {
     list-style-type: none;
     padding: 0;
     margin: 2rem 0 4rem 0;
     font-size: 1.2rem;
-  }
-  
-  .container-membresias ul li {
+}
+
+.card-body ul li {
     margin-bottom: 0.4rem;
-  }
-  
-  .container-membresias .boton-plan {
-    margin-top: 1.5rem;
-  }
-  
-  .container-membresias .boton-plan #button {
+}
+
+.card .boton-plan #button {
     background: rgb(209, 111, 111);
     color: #fff;
     font-size: 0.7em;
     padding: 0.6em 1.8em;
     border-radius: 25px;
-  }
-  
-  .container-membresias .cards #button:hover {
+}
+
+.card #button:hover {
     background: rgb(202, 107, 107);
-  }  
+}  
+
+@media only screen and (max-width: 815px) { 
+    .card .card-body h2 {
+        font-size: 4.5vw;
+        margin-bottom: 0.1rem;
+    }    
+    .card .card-body h3 {
+        font-size: 3.5vw;
+    }
+    .card .card-body li {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 479px) { 
+    .container-membresias h2  {
+        font-size: 7vw;
+    }
+    .container-membresias {
+        padding: 18% 15% 24% 15%; 
+    }
+    .cards .card {     
+        padding: 10% 2%;       
+    }
+    .card .boton-plan #button {
+        font-size: 3.3vw;
+        padding: 0.6em 15vw;
+    }
+}

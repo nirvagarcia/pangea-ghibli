@@ -33,3 +33,20 @@
 .footer-bottom p {
   font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 520px) { 
+  .footer-content {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10%;
+  }
+  .logo {
+    justify-content: center;
+    padding-right: 1rem;
+  }
+  .footer-bottom {
+    margin-top: 0.4rem;
+  }
+  
+}

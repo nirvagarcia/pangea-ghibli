@@ -16,6 +16,7 @@ function App(): JSX.Element {
         <Catalog></Catalog>
         <Devices></Devices>
         <Subscriptions></Subscriptions>
+
         <Footer></Footer>
       </header>
     </div>

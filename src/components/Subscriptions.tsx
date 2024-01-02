@@ -16,12 +16,11 @@ const Subscriptions: React.FC = () => {
         <div className="container-membresias">
           <h2>Selecciona tu Plan</h2>
 
-
             <div className="cards">
 
                 <div className="card">
                     <div className="card-body">
-                    <h2>Standard</h2>
+                    <h2>Estudiante</h2>
                     <h3>S/.10.00 <span>/mes</span></h3>
                     <ul>
                         <li>Sin publicidad</li>
@@ -34,14 +33,29 @@ const Subscriptions: React.FC = () => {
                     </div>
                 </div>
 
-                    <div className="card">
+                <div className="card">
                     <div className="card-body">
-                    <h2>Familiar</h2>
+                    <h2>Standard</h2>
                     <h3>S/.29.00 <span>/mes</span></h3>
                     <ul>
                         <li>Sin publicidad</li>
                         <li>Acceso a todo el catálogo</li>
                         <li>Descarga en 1080px</li>
+                    </ul>
+                    <div className="boton-plan">
+                        <a href="#/" id="button">Empezar</a>
+                    </div>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <div className="card-body">
+                    <h2>Familiar</h2>
+                    <h3>S/.35.00 <span>/mes</span></h3>
+                    <ul>
+                        <li>Sin publicidad</li>
+                        <li>Acceso a todo el catálogo</li>
+                        <li>Descarga en 4K</li>
                     </ul>
                     <div className="boton-plan">
                         <a href="#/" id="button">Empezar</a>
