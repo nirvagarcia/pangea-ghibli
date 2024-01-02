@@ -12,26 +12,31 @@ const Devices: React.FC = () => {
           <img src="/assets/usabilidad.png" alt="Usabilidad" />
 
             <div className="tipos-uso">
+
                 <div className="columna">
                     <div className="elemento">
                         <img src="/assets/pc-icon.png" alt="Computadora" />
-                        <p>Computadora</p>
+                        <p>PC / Lap</p>
                     </div>
+
                     <div className="elemento">
                         <img src="/assets/console-icon.png" alt="Consola" />
                         <p>Consola</p>
-                    </div>
+                    </div>                  
                 </div>
+
                 <div className="columna">
                     <div className="elemento">
                         <img src="/assets/phone-icon.png" alt="Movil" />
                         <p>Movil</p>
                     </div>
+
                     <div className="elemento">
                         <img src="/assets/tv-icon.png" alt="Televisor" />
                         <p>Televisor</p>
                     </div>
                 </div>
+
             </div>
         </div>
         
