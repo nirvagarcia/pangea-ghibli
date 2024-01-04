@@ -14,11 +14,11 @@ const Catalog: React.FC = () => {
           
             if (width > 1600) {
                 setSlidesPerView(4);
-              } else if (width > 1000) {
+            } else if (width > 600) {
                 setSlidesPerView(3);
-              } else if (width > 780) {
+            } else if (width < 600) {
                 setSlidesPerView(2);
-              }
+            }
           };
 
           window.addEventListener('resize', handleResize);
