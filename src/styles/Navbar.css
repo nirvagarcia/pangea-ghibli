@@ -1,10 +1,12 @@
 .header {
   padding: 0.7em 8%;
   margin: 0 10%;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000; 
+  background: rgba(0, 0, 0, 0.35); 
+  backdrop-filter: blur(8px); 
 }
 
 .container_header {
@@ -57,10 +59,11 @@
 
 .menu-hamburger {
   display: none;
-  position: absolute;
-  top: 2.2em;
-  right: 8%;
-  width: 2.2em;
+  cursor: pointer;
+}
+
+.close-icon {
+  display: none;
   cursor: pointer;
 }
 
@@ -69,6 +72,49 @@
   .nav-links {
     display: none;
   }
-
-
+  .menu-hamburger {
+    display:block;
+    position: absolute;
+    top: 1.15em;
+    right: 8%;
+    width: 1.6em;
+    cursor: pointer;
+  }
+  .close-icon {
+    display: block;
+    position: absolute;
+    top: 1.15em;
+    right: 8%;
+    width: 1.1em;
+  }
+  .nav-links.menu-open {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+  }
+  .nav-links.menu-open ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    width: 80%;
+    font-size: 2.2rem;
+  }
+  .nav-links.menu-open ul li {
+    margin: 15px 0; 
+  }
+  .header.menu-open {
+    background: rgba(0, 0, 0, 0.45); 
+    backdrop-filter: blur(10px); 
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }

@@ -1,24 +1,48 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../styles/Navbar.css";
 
 const Navbar: React.FC = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleOptionClick = () => {
+    setMenuOpen(false); 
+  };
+
   return (
-    <header className="header">
+    <header className={`header ${menuOpen ? 'menu-open' : ''}`}>
       <div className="container_header">
-        <a href="#/" className="logo">
+        <a href="#home" className="logo">
           <img src="/assets/logo-icon.png" alt="logo" />
           <p>Pangea</p>
         </a>
-        <div className="nav-links">
+        <div className={`nav-links ${menuOpen ? 'menu-open' : ''}`}>
           <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#catalog">Catalog</a></li>
-            <li><a href="#devices">Devices</a></li>
-            <li><a href="#membership">Membership</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" onClick={handleOptionClick}>Inicio</a></li>
+            <li><a href="#catalog" onClick={handleOptionClick}>Catálogo</a></li>
+            <li><a href="#devices" onClick={handleOptionClick}>Dispositivos</a></li>
+            <li><a href="#membership" onClick={handleOptionClick}>Planes</a></li>
+            <li><a href="#questions" onClick={handleOptionClick}>Q&A</a></li>
           </ul>
         </div>
-        <img src="img/ham-icon.png" className="menu-hamburger" alt="menu icon" />
+        {menuOpen ? (
+          <img
+            className="close-icon"
+            src="/assets/close.png"
+            alt="close icon"
+            onClick={toggleMenu}
+          />
+        ) : (
+          <img
+            className="menu-hamburger"
+            src="/assets/ham-icon.png"
+            alt="menu icon"
+            onClick={toggleMenu}
+          />
+        )}
       </div>
     </header>
   );

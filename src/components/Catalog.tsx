@@ -11,9 +11,7 @@ const Catalog: React.FC = () => {
     const handleResize = () => {
       const width = window.innerWidth;
       if (width > 1600) {
-        setSlidesPerView(4);
-      } else if (width > 1000) {
-        setSlidesPerView(3);
+        setSlidesPerView(3);     
       } else if (width > 780) {
         setSlidesPerView(2);
       }
@@ -38,7 +36,8 @@ const Catalog: React.FC = () => {
 
         <Swiper
           spaceBetween={15}
-          slidesPerView={slidesPerView}          //navigation
+          slidesPerView={slidesPerView}          
+          //navigation
           pagination={{ clickable: true }}
           autoplay={{ delay: 3000 }}
           loop={true} 
